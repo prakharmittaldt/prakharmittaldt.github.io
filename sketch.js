@@ -550,6 +550,13 @@ function pianoplaying() {
   player2.y = ball.y+50;
   player2.collider = 'dynamic';
 
+	    pencilicon = new Sprite();
+      pencilicon.collider = 'static';
+      pencilicon.width = 250;
+      pencilicon.img = 'assets/pencil-icon.png';
+      pencilicon.scale = 0.3;
+      pencilicon.x = 1160;
+      pencilicon.y = 600;
 
   }
 }
